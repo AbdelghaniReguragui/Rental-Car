@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniprojet.FlotteController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="353.0" layoutY="46.0" text="Flotte">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="addVoitureButton" layoutX="448.0" layoutY="183.0" mnemonicParsing="false" onAction="#addVoitureButtonAction" prefHeight="49.0" prefWidth="304.0" text="Ajouter une voiture">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="voituresButton" layoutX="88.0" layoutY="183.0" mnemonicParsing="false" onAction="#voituresButtonAction" prefHeight="49.0" prefWidth="304.0" text="Nos Voitures">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteVoitureButton" layoutX="88.0" layoutY="313.0" mnemonicParsing="false" onAction="#deleteVoitureButtonAction" prefHeight="49.0" prefWidth="304.0" text="Suprimer une voiture">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="editVoitureButton" layoutX="448.0" layoutY="313.0" mnemonicParsing="false" onAction="#editVoitureButtonAction" prefHeight="49.0" prefWidth="304.0" text="Modifier une voiture">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="41.0" layoutY="435.0" mnemonicParsing="false" onAction="#backButtonAction" text="Back" />
+   </children>
+</AnchorPane>

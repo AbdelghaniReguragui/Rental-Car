@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="miniprojet.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label fx:id="titreLabel" alignment="CENTER" layoutX="271.0" layoutY="57.0" prefHeight="49.0" prefWidth="201.0" text="Rental Cars">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="34.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="carImage" fitHeight="78.0" fitWidth="81.0" layoutX="465.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/car.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="utilisateurLabel" alignment="CENTER" layoutX="220.0" layoutY="198.0" prefHeight="22.0" prefWidth="125.0" text="Utilisateur">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="mdpLabel" alignment="CENTER" layoutX="220.0" layoutY="239.0" prefHeight="22.0" prefWidth="125.0" text="Mot de Passe">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="mdpField" alignment="CENTER" layoutX="400.0" layoutY="237.0" prefHeight="22.0" prefWidth="167.0" />
+      <TextField fx:id="utilisateurField" alignment="CENTER" layoutX="400.0" layoutY="196.0" prefHeight="27.0" prefWidth="167.0" />
+      <Button fx:id="connexionButton" alignment="CENTER" layoutX="304.0" layoutY="309.0" mnemonicParsing="false" onAction="#connexionButtonAction" text="Connexion" />
+      <Button fx:id="fermetureButton" alignment="CENTER" layoutX="412.0" layoutY="309.0" mnemonicParsing="false" onAction="#fermetureButtonAction" prefHeight="27.0" prefWidth="83.0" text="Fermer">
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+    </children>
+</AnchorPane>

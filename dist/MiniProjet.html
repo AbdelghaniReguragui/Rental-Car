@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'MiniProjet.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iTWluaVByb2pldC5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5NaW5pUHJvamV0PC90aXRsZT4NCiAgICA8dmVuZG9yPm91c3NhbWF0cmFjaGxpPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9Ik1pbmlQcm9qZXQuamFyIiBzaXplPSI4MDU5MCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXHNxbGl0ZS1qZGJjLTMuNi43LmphciIgc2l6ZT0iMjI1NTU0NCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJNaW5pUHJvamV0IiA+DQogICAgPHBhcmFtIG5hbWU9InJlcXVpcmVkRlhWZXJzaW9uIiB2YWx1ZT0iOC4wKyIvPg0KICA8L2FwcGxldC1kZXNjPg0KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0ibWluaXByb2pldC5NaW5pUHJvamV0IiAgbmFtZT0iTWluaVByb2pldCIgLz4NCiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQo8L2pubHA+DQo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedminiprojet() {
+        dtjava.embed(
+            {
+                id : 'miniprojet',
+                url : 'MiniProjet.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iTWluaVByb2pldC5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5NaW5pUHJvamV0PC90aXRsZT4NCiAgICA8dmVuZG9yPm91c3NhbWF0cmFjaGxpPC92ZW5kb3I+DQogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgIDxvZmZsaW5lLWFsbG93ZWQvPg0KICA8L2luZm9ybWF0aW9uPg0KICA8cmVzb3VyY2VzPg0KICAgIDxqMnNlIHZlcnNpb249IjEuNisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICA8amFyIGhyZWY9Ik1pbmlQcm9qZXQuamFyIiBzaXplPSI4MDU5MCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXHNxbGl0ZS1qZGJjLTMuNi43LmphciIgc2l6ZT0iMjI1NTU0NCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICA8L3Jlc291cmNlcz4NCiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJNaW5pUHJvamV0IiA+DQogICAgPHBhcmFtIG5hbWU9InJlcXVpcmVkRlhWZXJzaW9uIiB2YWx1ZT0iOC4wKyIvPg0KICA8L2FwcGxldC1kZXNjPg0KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0ibWluaXByb2pldC5NaW5pUHJvamV0IiAgbmFtZT0iTWluaVByb2pldCIgLz4NCiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQo8L2pubHA+DQo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedminiprojet);
+</script>
+
+</head><body>
+<h2>Test page for <b>MiniProjet</b></h2>
+  <b>Webstart:</b> <a href='MiniProjet.jnlp' onclick="return launchApplication('MiniProjet.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
